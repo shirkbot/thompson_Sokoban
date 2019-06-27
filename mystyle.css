@@ -1,0 +1,39 @@
+.floor{ 
+    background-image: url(./assets/Floor.png); 
+    }
+    
+.wall{ 
+    background-image: url(./assets/Wall.png); 
+    }
+    
+.boxOnFloor{ 
+    background-image: url(./assets/Box.png); 
+    }
+    
+.floorSwitch{ 
+    background-image: url(./assets/FloorSwitch.png);   
+    } 
+
+.boxOnSwitch{
+    background-image: url(./assets/BoxButton.png); 
+    } 
+
+.playerOnFloor{ 
+    background-image: url(./assets/Player.png); 
+    } 
+
+.playerOnSwitch{
+    background-image: url(./assets/PlayerSwitch.png); 
+    } 
+
+#Board{
+    border: thin solid black; 
+    position: absolute;
+    top: 15%;
+    left: 33%;
+    }
+    
+#Board div{
+    float: left; 
+    position: relative;
+    }
